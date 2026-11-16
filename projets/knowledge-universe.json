@@ -1,0 +1,1661 @@
+{
+  "nodes": [
+    {
+      "tags": [
+        "origine",
+        "méta"
+      ],
+      "notes": "Point d'entrée de l'univers de connaissances.",
+      "resources": [],
+      "metadata": {},
+      "scale": 2.2,
+      "id": "universe",
+      "title": "Knowledge Universe",
+      "description": "Le centre de tout savoir. Un espace vivant où chaque idée est un lieu et chaque relation un chemin.",
+      "x": 135.0320207549122,
+      "y": 138.18170198951847,
+      "color": "#a78bfa",
+      "icon": "sparkles",
+      "depth": 0
+    },
+    {
+      "tags": [
+        "domaine",
+        "empirique"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.6,
+      "id": "science",
+      "title": "Sciences",
+      "description": "Exploration systématique du monde naturel par l'observation et l'expérimentation.",
+      "x": -443.46498493769775,
+      "y": -235.3114835715698,
+      "color": "#3b82f6",
+      "icon": "atom",
+      "depth": 0,
+      "parentId": "universe"
+    },
+    {
+      "tags": [
+        "domaine",
+        "ingénierie"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.6,
+      "id": "tech",
+      "title": "Technologie",
+      "description": "Outils, systèmes et innovations qui transforment la façon dont nous vivons et pensons.",
+      "x": 428.02110605701773,
+      "y": -279.7965718992872,
+      "color": "#06b6d4",
+      "icon": "cpu",
+      "depth": 0,
+      "parentId": "universe"
+    },
+    {
+      "tags": [
+        "domaine",
+        "pensée"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.6,
+      "id": "philosophy",
+      "title": "Philosophie",
+      "description": "Questionnement fondamental sur l'existence, la connaissance, la morale et la raison.",
+      "x": -547.217968576608,
+      "y": 321.35301470520403,
+      "color": "#8b5cf6",
+      "icon": "brain",
+      "depth": 0,
+      "parentId": "universe"
+    },
+    {
+      "tags": [
+        "domaine",
+        "création"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.6,
+      "id": "arts",
+      "title": "Arts & Design",
+      "description": "Expression créative, esthétique et conception d'expériences humaines.",
+      "x": 686.310142930571,
+      "y": 334.84559863010213,
+      "color": "#ec4899",
+      "icon": "palette",
+      "depth": 0,
+      "parentId": "universe"
+    },
+    {
+      "tags": [
+        "domaine",
+        "humain"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.5,
+      "id": "society",
+      "title": "Société",
+      "description": "Structures humaines, cultures, économies et dynamiques collectives.",
+      "x": 133.67563929354077,
+      "y": 629.7397093356087,
+      "color": "#f59e0b",
+      "icon": "users",
+      "depth": 0,
+      "parentId": "universe"
+    },
+    {
+      "tags": [
+        "science",
+        "fondamental"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "physics",
+      "title": "Physique",
+      "description": "Lois fondamentales de la matière, de l'énergie, de l'espace et du temps.",
+      "x": -684.3317013680172,
+      "y": -356.9814846059508,
+      "color": "#3b82f6",
+      "icon": "atom",
+      "depth": 1,
+      "parentId": "science"
+    },
+    {
+      "tags": [
+        "science",
+        "vivant"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "biology",
+      "title": "Biologie",
+      "description": "Étude du vivant, de la cellule aux écosystèmes.",
+      "x": -622.7272430430081,
+      "y": -573.3044670888239,
+      "color": "#22c55e",
+      "icon": "leaf",
+      "depth": 1,
+      "parentId": "science"
+    },
+    {
+      "tags": [
+        "science",
+        "formel"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "math",
+      "title": "Mathématiques",
+      "description": "Langage formel des structures, quantités, espaces et changements.",
+      "x": -231.32609969227286,
+      "y": -93.57975140422309,
+      "color": "#6366f1",
+      "icon": "sigma",
+      "depth": 1,
+      "parentId": "science"
+    },
+    {
+      "tags": [
+        "science",
+        "matière"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "chemistry",
+      "title": "Chimie",
+      "description": "Composition, structure et transformations de la matière.",
+      "x": -441.07223188547425,
+      "y": -555.8906137702181,
+      "color": "#14b8a6",
+      "icon": "flask",
+      "depth": 1,
+      "parentId": "science"
+    },
+    {
+      "tags": [
+        "physique",
+        "quantique",
+        "fondamental"
+      ],
+      "notes": "Superposition, intrication, dualité onde-particule.",
+      "resources": [
+        {
+          "id": "r1",
+          "title": "Introduction quantique",
+          "url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+          "type": "link"
+        }
+      ],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "quantum",
+      "title": "Physique quantique",
+      "description": "Comportement de la matière et de l'énergie à l'échelle atomique et subatomique.",
+      "x": -1161.690665787512,
+      "y": -755.1859466728786,
+      "color": "#60a5fa",
+      "icon": "atom",
+      "depth": 2,
+      "parentId": "physics"
+    },
+    {
+      "tags": [
+        "physique",
+        "einstein",
+        "espace-temps"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "relativity",
+      "title": "Relativité",
+      "description": "Espace-temps courbé, équivalence masse-énergie, relativité restreinte et générale.",
+      "x": -953.9986529160625,
+      "y": -777.9956712447066,
+      "color": "#818cf8",
+      "icon": "orbit",
+      "depth": 2,
+      "parentId": "physics"
+    },
+    {
+      "tags": [
+        "physique",
+        "énergie"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "thermo",
+      "title": "Thermodynamique",
+      "description": "Énergie, chaleur, entropie et flèche du temps.",
+      "x": -927.6828891618009,
+      "y": -582.4368163667783,
+      "color": "#f97316",
+      "icon": "flame",
+      "depth": 2,
+      "parentId": "physics"
+    },
+    {
+      "tags": [
+        "quantique",
+        "non-localité"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.45,
+      "id": "entanglement",
+      "title": "Intrication",
+      "description": "Corrélations non-locales entre particules quantiques.",
+      "x": -763.7263392957078,
+      "y": -640.5717123302334,
+      "color": "#93c5fd",
+      "icon": "git-branch",
+      "depth": 3,
+      "parentId": "quantum"
+    },
+    {
+      "tags": [
+        "quantique",
+        "états"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.45,
+      "id": "superposition",
+      "title": "Superposition",
+      "description": "Un système quantique peut exister dans plusieurs états simultanément.",
+      "x": -1353.9506393931194,
+      "y": -1045.3086123510177,
+      "color": "#93c5fd",
+      "icon": "layers",
+      "depth": 3,
+      "parentId": "quantum"
+    },
+    {
+      "tags": [
+        "quantique",
+        "lumière"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.45,
+      "id": "wave-particle",
+      "title": "Dualité onde-particule",
+      "description": "La matière et la lumière présentent à la fois des propriétés d'ondes et de particules.",
+      "x": -1480.9635602453602,
+      "y": -835.7130205715482,
+      "color": "#7dd3fc",
+      "icon": "waves",
+      "depth": 3,
+      "parentId": "quantum"
+    },
+    {
+      "tags": [
+        "biologie",
+        "adn"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "genetics",
+      "title": "Génétique",
+      "description": "Hérédité, ADN, expression des gènes et évolution moléculaire.",
+      "x": -535.94689258812,
+      "y": -804.5794717323877,
+      "color": "#4ade80",
+      "icon": "dna",
+      "depth": 2,
+      "parentId": "biology"
+    },
+    {
+      "tags": [
+        "biologie",
+        "écosystème"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "ecology",
+      "title": "Écologie",
+      "description": "Interactions entre organismes et leur environnement.",
+      "x": -263.9768501095592,
+      "y": -444.80872908053936,
+      "color": "#86efac",
+      "icon": "globe",
+      "depth": 2,
+      "parentId": "biology"
+    },
+    {
+      "tags": [
+        "biologie",
+        "cerveau",
+        "cognition"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "neuroscience",
+      "title": "Neurosciences",
+      "description": "Structure et fonction du système nerveux et du cerveau.",
+      "x": -381.00817377427694,
+      "y": -136.37358342696942,
+      "color": "#34d399",
+      "icon": "brain",
+      "depth": 2,
+      "parentId": "biology"
+    },
+    {
+      "tags": [
+        "génétique",
+        "molécule"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.4,
+      "id": "dna",
+      "title": "ADN",
+      "description": "Molécule porteuse de l'information génétique.",
+      "x": -447.5878060218168,
+      "y": -885.6121436545311,
+      "color": "#86efac",
+      "icon": "dna",
+      "depth": 3,
+      "parentId": "genetics"
+    },
+    {
+      "tags": [
+        "biologie",
+        "darwin",
+        "sélection"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.4,
+      "id": "evolution",
+      "title": "Évolution",
+      "description": "Changement des populations biologiques au fil des générations.",
+      "x": -505.6408390384266,
+      "y": -482.39692293818086,
+      "color": "#6ee7b7",
+      "icon": "git-branch",
+      "depth": 3,
+      "parentId": "genetics"
+    },
+    {
+      "tags": [
+        "maths",
+        "structures"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "algebra",
+      "title": "Algèbre",
+      "description": "Structures abstraites : groupes, anneaux, corps, algèbres linéaires.",
+      "x": -221.3905147744222,
+      "y": -368.3578519507586,
+      "color": "#818cf8",
+      "icon": "sigma",
+      "depth": 2,
+      "parentId": "math"
+    },
+    {
+      "tags": [
+        "maths",
+        "continuité"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "calculus",
+      "title": "Analyse",
+      "description": "Limites, dérivées, intégrales et espaces de fonctions.",
+      "x": -661.8489003794438,
+      "y": -68.12539373970074,
+      "color": "#a5b4fc",
+      "icon": "trending-up",
+      "depth": 2,
+      "parentId": "math"
+    },
+    {
+      "tags": [
+        "maths",
+        "incertitude"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "probability",
+      "title": "Probabilités",
+      "description": "Mesure de l'incertitude et fondements statistiques.",
+      "x": -1.9599287370770573,
+      "y": -422.2485031327726,
+      "color": "#c4b5fd",
+      "icon": "dices",
+      "depth": 2,
+      "parentId": "math"
+    },
+    {
+      "tags": [
+        "maths",
+        "espaces"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "topology",
+      "title": "Topologie",
+      "description": "Propriétés des espaces préservées par déformations continues.",
+      "x": -421.4021628311334,
+      "y": -355.2625833807142,
+      "color": "#a78bfa",
+      "icon": "circle",
+      "depth": 2,
+      "parentId": "math"
+    },
+    {
+      "tags": [
+        "technologie",
+        "calcul"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "cs",
+      "title": "Informatique",
+      "description": "Science du calcul, des algorithmes et des systèmes d'information.",
+      "x": 78.57664360143873,
+      "y": -340.8771270025427,
+      "color": "#22d3ee",
+      "icon": "code",
+      "depth": 1,
+      "parentId": "tech"
+    },
+    {
+      "tags": [
+        "technologie",
+        "ia",
+        "apprentissage"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "ai",
+      "title": "Intelligence Artificielle",
+      "description": "Systèmes capables d'apprendre, raisonner et percevoir.",
+      "x": 63.61758170754624,
+      "y": -139.88573608526707,
+      "color": "#06b6d4",
+      "icon": "bot",
+      "depth": 1,
+      "parentId": "tech"
+    },
+    {
+      "tags": [
+        "technologie",
+        "internet"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "networks",
+      "title": "Réseaux",
+      "description": "Communication entre systèmes : Internet, protocoles, graphes.",
+      "x": -85.17509978019294,
+      "y": -233.77025271229053,
+      "color": "#2dd4bf",
+      "icon": "network",
+      "depth": 1,
+      "parentId": "tech"
+    },
+    {
+      "tags": [
+        "ia",
+        "données",
+        "modèles"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "ml",
+      "title": "Machine Learning",
+      "description": "Algorithmes qui s'améliorent automatiquement à partir de données.",
+      "x": 402.7558816423971,
+      "y": -581.2138209589446,
+      "color": "#67e8f9",
+      "icon": "brain",
+      "depth": 2,
+      "parentId": "ai"
+    },
+    {
+      "tags": [
+        "ia",
+        "neurones",
+        "profond"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.45,
+      "id": "dl",
+      "title": "Deep Learning",
+      "description": "Réseaux de neurones profonds pour la perception et la génération.",
+      "x": 1006.7219873874756,
+      "y": -934.0103205785248,
+      "color": "#a5f3fc",
+      "icon": "layers",
+      "depth": 3,
+      "parentId": "ml"
+    },
+    {
+      "tags": [
+        "ia",
+        "langage"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.45,
+      "id": "nlp",
+      "title": "NLP",
+      "description": "Traitement automatique du langage naturel.",
+      "x": 1043.4059953943588,
+      "y": -976.851073035116,
+      "color": "#cffafe",
+      "icon": "message-square",
+      "depth": 3,
+      "parentId": "ml"
+    },
+    {
+      "tags": [
+        "ia",
+        "attention",
+        "llm"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.35,
+      "id": "transformers",
+      "title": "Transformers",
+      "description": "Architecture d'attention qui a révolutionné le NLP et l'IA générative.",
+      "x": 1267.1473953594323,
+      "y": -1170.5723503227928,
+      "color": "#ecfeff",
+      "icon": "zap",
+      "depth": 4,
+      "parentId": "dl"
+    },
+    {
+      "tags": [
+        "ia",
+        "llm",
+        "génération"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.35,
+      "id": "llm",
+      "title": "Grands modèles de langage",
+      "description": "Modèles entraînés à grande échelle pour comprendre et générer du texte.",
+      "x": 1277.375877535027,
+      "y": -1079.245536084564,
+      "color": "#e0f2fe",
+      "icon": "sparkles",
+      "depth": 4,
+      "parentId": "nlp"
+    },
+    {
+      "tags": [
+        "informatique",
+        "complexité"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "algorithms",
+      "title": "Algorithmes",
+      "description": "Procédures finies de résolution de problèmes computationnels.",
+      "x": 358.3197096150375,
+      "y": -659.3211216474384,
+      "color": "#67e8f9",
+      "icon": "git-branch",
+      "depth": 2,
+      "parentId": "cs"
+    },
+    {
+      "tags": [
+        "informatique",
+        "mémoire"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "data-structures",
+      "title": "Structures de données",
+      "description": "Organisation efficace de l'information en mémoire.",
+      "x": -35.67819112273046,
+      "y": -602.3627238430682,
+      "color": "#a5f3fc",
+      "icon": "database",
+      "depth": 2,
+      "parentId": "cs"
+    },
+    {
+      "tags": [
+        "maths",
+        "informatique",
+        "réseaux"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.45,
+      "id": "graphs",
+      "title": "Théorie des graphes",
+      "description": "Nœuds, arêtes et propriétés des réseaux abstraits.",
+      "x": 177.1956358198191,
+      "y": -501.3669100136291,
+      "color": "#cffafe",
+      "icon": "share-2",
+      "depth": 3,
+      "parentId": "algorithms"
+    },
+    {
+      "tags": [
+        "informatique",
+        "P vs NP"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.45,
+      "id": "complexity",
+      "title": "Complexité",
+      "description": "Mesure des ressources nécessaires pour résoudre un problème.",
+      "x": 334.3239550012515,
+      "y": -398.6744116350703,
+      "color": "#22d3ee",
+      "icon": "timer",
+      "depth": 3,
+      "parentId": "algorithms"
+    },
+    {
+      "tags": [
+        "philosophie",
+        "savoir"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "epistemology",
+      "title": "Épistémologie",
+      "description": "Nature, origines et limites de la connaissance.",
+      "x": -389.453953075969,
+      "y": 494.8964026983262,
+      "color": "#a78bfa",
+      "icon": "eye",
+      "depth": 1,
+      "parentId": "philosophy"
+    },
+    {
+      "tags": [
+        "philosophie",
+        "morale"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "ethics",
+      "title": "Éthique",
+      "description": "Principes du bien et du mal, morale appliquée et responsabilité.",
+      "x": -536.373258709655,
+      "y": 652.1019988729648,
+      "color": "#c084fc",
+      "icon": "heart",
+      "depth": 1,
+      "parentId": "philosophy"
+    },
+    {
+      "tags": [
+        "philosophie",
+        "être"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "metaphysics",
+      "title": "Métaphysique",
+      "description": "Questions sur l'être, la réalité, le temps et la causalité.",
+      "x": -751.6300986227754,
+      "y": 673.554406101697,
+      "color": "#d8b4fe",
+      "icon": "infinity",
+      "depth": 1,
+      "parentId": "philosophy"
+    },
+    {
+      "tags": [
+        "philosophie",
+        "raisonnement"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "logic",
+      "title": "Logique",
+      "description": "Règles formelles du raisonnement valide.",
+      "x": -489.0065342825806,
+      "y": -30.91314968039934,
+      "color": "#818cf8",
+      "icon": "git-merge",
+      "depth": 1,
+      "parentId": "philosophy"
+    },
+    {
+      "tags": [
+        "philosophie",
+        "esprit",
+        "qualia"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "consciousness",
+      "title": "Conscience",
+      "description": "Expérience subjective, qualia et problème difficile de la conscience.",
+      "x": -522.206890286902,
+      "y": 338.26100196195324,
+      "color": "#e9d5ff",
+      "icon": "brain",
+      "depth": 2,
+      "parentId": "metaphysics"
+    },
+    {
+      "tags": [
+        "éthique",
+        "ia",
+        "société"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "ai-ethics",
+      "title": "Éthique de l'IA",
+      "description": "Biais, responsabilité, alignement et impact sociétal des systèmes intelligents.",
+      "x": -314.3796039222332,
+      "y": 399.4683023655002,
+      "color": "#f0abfc",
+      "icon": "shield",
+      "depth": 2,
+      "parentId": "ethics"
+    },
+    {
+      "tags": [
+        "design",
+        "ux"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "design",
+      "title": "Design",
+      "description": "Conception intentionnelle d'objets, interfaces et expériences.",
+      "x": 509.93542539642345,
+      "y": 563.0191756579674,
+      "color": "#f472b6",
+      "icon": "pen-tool",
+      "depth": 1,
+      "parentId": "arts"
+    },
+    {
+      "tags": [
+        "art",
+        "son"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "music",
+      "title": "Musique",
+      "description": "Organisation du son dans le temps : harmonie, rythme, mélodie.",
+      "x": 309.24703278313257,
+      "y": 363.9411255084886,
+      "color": "#fb7185",
+      "icon": "music",
+      "depth": 1,
+      "parentId": "arts"
+    },
+    {
+      "tags": [
+        "art",
+        "visuel"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "visual-arts",
+      "title": "Arts visuels",
+      "description": "Peinture, sculpture, photographie et arts numériques.",
+      "x": 661.9310197404709,
+      "y": 682.7289810503019,
+      "color": "#e879f9",
+      "icon": "image",
+      "depth": 1,
+      "parentId": "arts"
+    },
+    {
+      "tags": [
+        "design",
+        "utilisateur"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "ux",
+      "title": "UX Design",
+      "description": "Conception centrée sur l'expérience et les besoins utilisateurs.",
+      "x": 257.7432129072422,
+      "y": 628.3543485282079,
+      "color": "#f9a8d4",
+      "icon": "mouse-pointer",
+      "depth": 2,
+      "parentId": "design"
+    },
+    {
+      "tags": [
+        "design",
+        "texte"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "typography",
+      "title": "Typographie",
+      "description": "Art et technique de disposer le texte pour le rendre lisible et expressif.",
+      "x": 739.4668586192166,
+      "y": 896.3933880040485,
+      "color": "#fbcfe8",
+      "icon": "type",
+      "depth": 2,
+      "parentId": "design"
+    },
+    {
+      "tags": [
+        "art",
+        "couleur"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "color-theory",
+      "title": "Théorie des couleurs",
+      "description": "Harmonie, contraste, perception et psychologie des couleurs.",
+      "x": 118.74224751344035,
+      "y": 338.17751944140554,
+      "color": "#fce7f3",
+      "icon": "palette",
+      "depth": 2,
+      "parentId": "visual-arts"
+    },
+    {
+      "tags": [
+        "design",
+        "systèmes",
+        "complexité"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 0.8399999999999999,
+      "id": "systems-thinking",
+      "title": "Pensée systémique",
+      "description": "Comprendre les touts complexes via leurs interactions plutôt que leurs parties isolées.",
+      "x": 198.6840260150984,
+      "y": 2.487824859740389,
+      "color": "#fda4af",
+      "icon": "share-2",
+      "depth": 2,
+      "parentId": "design"
+    },
+    {
+      "tags": [
+        "société",
+        "ressources"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "economics",
+      "title": "Économie",
+      "description": "Production, distribution et consommation des ressources.",
+      "x": -146.51960754936817,
+      "y": 491.5242774037892,
+      "color": "#fbbf24",
+      "icon": "trending-up",
+      "depth": 1,
+      "parentId": "society"
+    },
+    {
+      "tags": [
+        "société",
+        "groupes"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "sociology",
+      "title": "Sociologie",
+      "description": "Étude des groupes humains, institutions et interactions sociales.",
+      "x": 206.16681506487464,
+      "y": 1035.819562370961,
+      "color": "#fcd34d",
+      "icon": "users",
+      "depth": 1,
+      "parentId": "society"
+    },
+    {
+      "tags": [
+        "société",
+        "temps"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "history",
+      "title": "Histoire",
+      "description": "Récit et analyse du passé humain.",
+      "x": -224.83481523190613,
+      "y": 316.7800085319367,
+      "color": "#f59e0b",
+      "icon": "book-open",
+      "depth": 1,
+      "parentId": "society"
+    },
+    {
+      "tags": [
+        "société",
+        "apprentissage"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "education",
+      "title": "Éducation",
+      "description": "Transmission et construction des savoirs à travers les générations.",
+      "x": -106.36044809259391,
+      "y": 739.1398111315291,
+      "color": "#fde68a",
+      "icon": "graduation-cap",
+      "depth": 1,
+      "parentId": "society"
+    },
+    {
+      "tags": [
+        "sémantique",
+        "graphe",
+        "méta"
+      ],
+      "notes": "Inspiré d'Obsidian, des knowledge graphs et de la cartographie conceptuelle.",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "knowledge-graph",
+      "title": "Graphes de connaissances",
+      "description": "Représentation sémantique des concepts et de leurs relations — le cœur de cet univers.",
+      "x": -116.5559911829672,
+      "y": -116.11412655190703,
+      "color": "#a78bfa",
+      "icon": "share-2",
+      "depth": 1,
+      "parentId": "universe"
+    },
+    {
+      "tags": [
+        "esprit",
+        "psychologie",
+        "ia"
+      ],
+      "notes": "",
+      "resources": [],
+      "metadata": {},
+      "scale": 1.1199999999999999,
+      "id": "cognition",
+      "title": "Cognition",
+      "description": "Processus mentaux : perception, mémoire, raisonnement, apprentissage.",
+      "x": -123.306673722932,
+      "y": 284.25183591609505,
+      "color": "#34d399",
+      "icon": "brain",
+      "depth": 1,
+      "parentId": "universe"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-universe-science-child",
+      "source": "universe",
+      "target": "science",
+      "type": "child"
+    },
+    {
+      "id": "e-universe-tech-child",
+      "source": "universe",
+      "target": "tech",
+      "type": "child"
+    },
+    {
+      "id": "e-universe-philosophy-child",
+      "source": "universe",
+      "target": "philosophy",
+      "type": "child"
+    },
+    {
+      "id": "e-universe-arts-child",
+      "source": "universe",
+      "target": "arts",
+      "type": "child"
+    },
+    {
+      "id": "e-universe-society-child",
+      "source": "universe",
+      "target": "society",
+      "type": "child"
+    },
+    {
+      "id": "e-universe-knowledge-graph-child",
+      "source": "universe",
+      "target": "knowledge-graph",
+      "type": "child"
+    },
+    {
+      "id": "e-universe-cognition-child",
+      "source": "universe",
+      "target": "cognition",
+      "type": "child"
+    },
+    {
+      "id": "e-science-physics-child",
+      "source": "science",
+      "target": "physics",
+      "type": "child"
+    },
+    {
+      "id": "e-science-biology-child",
+      "source": "science",
+      "target": "biology",
+      "type": "child"
+    },
+    {
+      "id": "e-science-math-child",
+      "source": "science",
+      "target": "math",
+      "type": "child"
+    },
+    {
+      "id": "e-science-chemistry-child",
+      "source": "science",
+      "target": "chemistry",
+      "type": "child"
+    },
+    {
+      "id": "e-physics-quantum-child",
+      "source": "physics",
+      "target": "quantum",
+      "type": "child"
+    },
+    {
+      "id": "e-physics-relativity-child",
+      "source": "physics",
+      "target": "relativity",
+      "type": "child"
+    },
+    {
+      "id": "e-physics-thermo-child",
+      "source": "physics",
+      "target": "thermo",
+      "type": "child"
+    },
+    {
+      "id": "e-quantum-entanglement-child",
+      "source": "quantum",
+      "target": "entanglement",
+      "type": "child"
+    },
+    {
+      "id": "e-quantum-superposition-child",
+      "source": "quantum",
+      "target": "superposition",
+      "type": "child"
+    },
+    {
+      "id": "e-quantum-wave-particle-child",
+      "source": "quantum",
+      "target": "wave-particle",
+      "type": "child"
+    },
+    {
+      "id": "e-biology-genetics-child",
+      "source": "biology",
+      "target": "genetics",
+      "type": "child"
+    },
+    {
+      "id": "e-biology-ecology-child",
+      "source": "biology",
+      "target": "ecology",
+      "type": "child"
+    },
+    {
+      "id": "e-biology-neuroscience-child",
+      "source": "biology",
+      "target": "neuroscience",
+      "type": "child"
+    },
+    {
+      "id": "e-genetics-dna-child",
+      "source": "genetics",
+      "target": "dna",
+      "type": "child"
+    },
+    {
+      "id": "e-genetics-evolution-child",
+      "source": "genetics",
+      "target": "evolution",
+      "type": "child"
+    },
+    {
+      "id": "e-math-algebra-child",
+      "source": "math",
+      "target": "algebra",
+      "type": "child"
+    },
+    {
+      "id": "e-math-calculus-child",
+      "source": "math",
+      "target": "calculus",
+      "type": "child"
+    },
+    {
+      "id": "e-math-probability-child",
+      "source": "math",
+      "target": "probability",
+      "type": "child"
+    },
+    {
+      "id": "e-math-topology-child",
+      "source": "math",
+      "target": "topology",
+      "type": "child"
+    },
+    {
+      "id": "e-tech-cs-child",
+      "source": "tech",
+      "target": "cs",
+      "type": "child"
+    },
+    {
+      "id": "e-tech-ai-child",
+      "source": "tech",
+      "target": "ai",
+      "type": "child"
+    },
+    {
+      "id": "e-tech-networks-child",
+      "source": "tech",
+      "target": "networks",
+      "type": "child"
+    },
+    {
+      "id": "e-ai-ml-child",
+      "source": "ai",
+      "target": "ml",
+      "type": "child"
+    },
+    {
+      "id": "e-ml-dl-child",
+      "source": "ml",
+      "target": "dl",
+      "type": "child"
+    },
+    {
+      "id": "e-ml-nlp-child",
+      "source": "ml",
+      "target": "nlp",
+      "type": "child"
+    },
+    {
+      "id": "e-dl-transformers-child",
+      "source": "dl",
+      "target": "transformers",
+      "type": "child"
+    },
+    {
+      "id": "e-nlp-llm-child",
+      "source": "nlp",
+      "target": "llm",
+      "type": "child"
+    },
+    {
+      "id": "e-cs-algorithms-child",
+      "source": "cs",
+      "target": "algorithms",
+      "type": "child"
+    },
+    {
+      "id": "e-cs-data-structures-child",
+      "source": "cs",
+      "target": "data-structures",
+      "type": "child"
+    },
+    {
+      "id": "e-algorithms-graphs-child",
+      "source": "algorithms",
+      "target": "graphs",
+      "type": "child"
+    },
+    {
+      "id": "e-algorithms-complexity-child",
+      "source": "algorithms",
+      "target": "complexity",
+      "type": "child"
+    },
+    {
+      "id": "e-philosophy-epistemology-child",
+      "source": "philosophy",
+      "target": "epistemology",
+      "type": "child"
+    },
+    {
+      "id": "e-philosophy-ethics-child",
+      "source": "philosophy",
+      "target": "ethics",
+      "type": "child"
+    },
+    {
+      "id": "e-philosophy-metaphysics-child",
+      "source": "philosophy",
+      "target": "metaphysics",
+      "type": "child"
+    },
+    {
+      "id": "e-philosophy-logic-child",
+      "source": "philosophy",
+      "target": "logic",
+      "type": "child"
+    },
+    {
+      "id": "e-metaphysics-consciousness-child",
+      "source": "metaphysics",
+      "target": "consciousness",
+      "type": "child"
+    },
+    {
+      "id": "e-ethics-ai-ethics-child",
+      "source": "ethics",
+      "target": "ai-ethics",
+      "type": "child"
+    },
+    {
+      "id": "e-arts-design-child",
+      "source": "arts",
+      "target": "design",
+      "type": "child"
+    },
+    {
+      "id": "e-arts-music-child",
+      "source": "arts",
+      "target": "music",
+      "type": "child"
+    },
+    {
+      "id": "e-arts-visual-arts-child",
+      "source": "arts",
+      "target": "visual-arts",
+      "type": "child"
+    },
+    {
+      "id": "e-design-ux-child",
+      "source": "design",
+      "target": "ux",
+      "type": "child"
+    },
+    {
+      "id": "e-design-typography-child",
+      "source": "design",
+      "target": "typography",
+      "type": "child"
+    },
+    {
+      "id": "e-design-systems-thinking-child",
+      "source": "design",
+      "target": "systems-thinking",
+      "type": "child"
+    },
+    {
+      "id": "e-visual-arts-color-theory-child",
+      "source": "visual-arts",
+      "target": "color-theory",
+      "type": "child"
+    },
+    {
+      "id": "e-society-economics-child",
+      "source": "society",
+      "target": "economics",
+      "type": "child"
+    },
+    {
+      "id": "e-society-sociology-child",
+      "source": "society",
+      "target": "sociology",
+      "type": "child"
+    },
+    {
+      "id": "e-society-history-child",
+      "source": "society",
+      "target": "history",
+      "type": "child"
+    },
+    {
+      "id": "e-society-education-child",
+      "source": "society",
+      "target": "education",
+      "type": "child"
+    },
+    {
+      "id": "e-math-physics-uses",
+      "source": "math",
+      "target": "physics",
+      "type": "uses",
+      "label": "formalise"
+    },
+    {
+      "id": "e-math-cs-uses",
+      "source": "math",
+      "target": "cs",
+      "type": "uses"
+    },
+    {
+      "id": "e-probability-ml-prerequisite",
+      "source": "probability",
+      "target": "ml",
+      "type": "prerequisite"
+    },
+    {
+      "id": "e-calculus-physics-uses",
+      "source": "calculus",
+      "target": "physics",
+      "type": "uses"
+    },
+    {
+      "id": "e-algebra-ml-prerequisite",
+      "source": "algebra",
+      "target": "ml",
+      "type": "prerequisite"
+    },
+    {
+      "id": "e-graphs-networks-similar",
+      "source": "graphs",
+      "target": "networks",
+      "type": "similar"
+    },
+    {
+      "id": "e-graphs-knowledge-graph-uses",
+      "source": "graphs",
+      "target": "knowledge-graph",
+      "type": "uses"
+    },
+    {
+      "id": "e-neuroscience-ai-similar",
+      "source": "neuroscience",
+      "target": "ai",
+      "type": "similar"
+    },
+    {
+      "id": "e-neuroscience-cognition-related",
+      "source": "neuroscience",
+      "target": "cognition",
+      "type": "related"
+    },
+    {
+      "id": "e-cognition-ai-complementary",
+      "source": "cognition",
+      "target": "ai",
+      "type": "complementary"
+    },
+    {
+      "id": "e-cognition-consciousness-related",
+      "source": "cognition",
+      "target": "consciousness",
+      "type": "related"
+    },
+    {
+      "id": "e-consciousness-neuroscience-depends_on",
+      "source": "consciousness",
+      "target": "neuroscience",
+      "type": "depends_on"
+    },
+    {
+      "id": "e-ai-ai-ethics-complementary",
+      "source": "ai",
+      "target": "ai-ethics",
+      "type": "complementary"
+    },
+    {
+      "id": "e-ethics-ai-ethics-parent",
+      "source": "ethics",
+      "target": "ai-ethics",
+      "type": "parent"
+    },
+    {
+      "id": "e-logic-cs-uses",
+      "source": "logic",
+      "target": "cs",
+      "type": "uses"
+    },
+    {
+      "id": "e-logic-math-similar",
+      "source": "logic",
+      "target": "math",
+      "type": "similar"
+    },
+    {
+      "id": "e-chemistry-biology-complementary",
+      "source": "chemistry",
+      "target": "biology",
+      "type": "complementary"
+    },
+    {
+      "id": "e-chemistry-physics-depends_on",
+      "source": "chemistry",
+      "target": "physics",
+      "type": "depends_on"
+    },
+    {
+      "id": "e-dna-evolution-cause",
+      "source": "dna",
+      "target": "evolution",
+      "type": "cause"
+    },
+    {
+      "id": "e-quantum-relativity-opposite",
+      "source": "quantum",
+      "target": "relativity",
+      "type": "opposite",
+      "label": "échelles différentes"
+    },
+    {
+      "id": "e-thermo-evolution-related",
+      "source": "thermo",
+      "target": "evolution",
+      "type": "related"
+    },
+    {
+      "id": "e-ml-probability-depends_on",
+      "source": "ml",
+      "target": "probability",
+      "type": "depends_on"
+    },
+    {
+      "id": "e-llm-transformers-uses",
+      "source": "llm",
+      "target": "transformers",
+      "type": "uses"
+    },
+    {
+      "id": "e-llm-nlp-uses",
+      "source": "llm",
+      "target": "nlp",
+      "type": "uses"
+    },
+    {
+      "id": "e-knowledge-graph-graphs-uses",
+      "source": "knowledge-graph",
+      "target": "graphs",
+      "type": "uses"
+    },
+    {
+      "id": "e-knowledge-graph-epistemology-related",
+      "source": "knowledge-graph",
+      "target": "epistemology",
+      "type": "related"
+    },
+    {
+      "id": "e-education-cognition-depends_on",
+      "source": "education",
+      "target": "cognition",
+      "type": "depends_on"
+    },
+    {
+      "id": "e-education-epistemology-related",
+      "source": "education",
+      "target": "epistemology",
+      "type": "related"
+    },
+    {
+      "id": "e-ux-cognition-uses",
+      "source": "ux",
+      "target": "cognition",
+      "type": "uses"
+    },
+    {
+      "id": "e-systems-thinking-ecology-similar",
+      "source": "systems-thinking",
+      "target": "ecology",
+      "type": "similar"
+    },
+    {
+      "id": "e-systems-thinking-complexity-related",
+      "source": "systems-thinking",
+      "target": "complexity",
+      "type": "related"
+    },
+    {
+      "id": "e-color-theory-physics-depends_on",
+      "source": "color-theory",
+      "target": "physics",
+      "type": "depends_on",
+      "label": "lumière"
+    },
+    {
+      "id": "e-music-math-uses",
+      "source": "music",
+      "target": "math",
+      "type": "uses",
+      "label": "harmonie"
+    },
+    {
+      "id": "e-transformers-llm-cause",
+      "source": "transformers",
+      "target": "llm",
+      "type": "cause"
+    },
+    {
+      "id": "e-ai-ethics-society-consequence",
+      "source": "ai-ethics",
+      "target": "society",
+      "type": "consequence"
+    },
+    {
+      "id": "e-economics-networks-uses",
+      "source": "economics",
+      "target": "networks",
+      "type": "uses"
+    },
+    {
+      "id": "e-history-evolution-similar",
+      "source": "history",
+      "target": "evolution",
+      "type": "similar",
+      "label": "changement dans le temps"
+    },
+    {
+      "id": "e-topology-data-structures-related",
+      "source": "topology",
+      "target": "data-structures",
+      "type": "related"
+    },
+    {
+      "id": "e-entanglement-networks-similar",
+      "source": "entanglement",
+      "target": "networks",
+      "type": "similar",
+      "label": "corrélations"
+    }
+  ]
+}

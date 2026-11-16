@@ -1,0 +1,4 @@
+acutel limité à 1 lien entre concept. Je veux pouvoir lié les meme concept plusieurs fois !
+Pouvoir mettre du texte en indice ou exposant, qu'importe la zone de texte prise en compte.
+
+Refonte graphique, passé sur un bloc la sourie le zone de 100% et montre a gauche les notes privées et à droite la description. 
